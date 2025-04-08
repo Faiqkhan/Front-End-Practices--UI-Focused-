@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+:root {
+    --navbg: #f2f2f2;
+    --text-color: #313131;
+    --text-color2: #fcfcfa;
+    --join-bg: #ededed;
+    --footer-bg: #111111;
+    --border-color: #d2d2d2
+}
+
+/* Nav Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 48px;
+    background-color: var(--navbg);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.logo img {
+    height: 80px;
+}
+
+.links ul li {
+    display: inline;
+    list-style: none;
+    margin: 0 24px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+    gap: 48px;
+}
+
+.quote {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.image img {
+    height: 600px;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+}
+
+/* Join Us */
+.join {
+    align-items: center;
+    background-color: var(--join-bg);
+    padding: 64px 48px;
+}
+
+.title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0 120px;
+}
+
+.buttons {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.buttons button {
+    font-size: 20px;
+    margin: 12px;
+    background-color: var(--text-color2);
+    padding: 16px 24px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 500;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--footer-bg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 200px;
+}
+
+.left {
+    color: var(--text-color2);
+    font-size: 20px;
+    gap: 20px;
+    text-align: center;
+}
+
+.left p {
+    margin: 20px 0;
+}
+
+.right ul {
+    color: var(--text-color2);
+    list-style: none;
+    display: flex;
+    gap: 128px;
+    font-size: 20px;
+    padding: 0 24px;
+}
